@@ -1,0 +1,19 @@
+Express:
+npm install express --save	node modules for express
+npm install body-parser --save	read data from <form> element
+npm install mongodb --save	install MongoDB through npm
+
+node server.js		start express server
+
+npm install nodemon --save-dev	restart server a automatically whenever you save a file that the server uses
+./node_modules/.bin/nodemon server.js	start server using nodemon
+
+Angular:
+ng new [name]		create new app
+ng generate service [name]	generate a new service
+npm install / ng update	install dependencies
+npm run serve /
+ng serve --open (-o)		run script
+npm start			run script
+npm install body-parser --save	parses the body of the requests and adds it as a new property to the request object.
+npm install cors --save	install cors for enabling cross origin resources
